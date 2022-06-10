@@ -1,0 +1,65 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#quote-box {
+  background-color: white;
+  border-radius: 3px;
+  padding: 50px 50px 70px 50px;
+  width: 450px;
+  color: white;
+}
+
+#text {
+  font-size: 1.50rem;
+}
+
+#author {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#tweet-quote {
+  float: left;
+  padding: 3px 7px 5px 7px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.fab {
+  color: white;
+  vertical-align: middle;
+  /*padding: 0px 2px 0px 2px;*/
+  font-size: 1.2em;
+}
+
+button {
+  float: right;
+  color: white;
+  font-size: 0.9rem;
+  padding: 11px 20px 10px 20px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+#tweet-quote:hover, button:hover {
+  opacity: 0.8;
+}
+
+#signature {
+  text-align: center;
+  padding-top: 20px;
+  font-size: small;
+  opacity: 0.5;
+}
